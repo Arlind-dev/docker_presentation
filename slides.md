@@ -28,11 +28,36 @@ src: ./pages/02-inhaltsverzeichnis.md
 ---
 
 ---
-transition: fade-out
-src: ./pages/03-dockerumgebung.md
+transition: slide-left
+src: ./pages/03-dockerumgebung-installation.md
 ---
 
 ---
-transition: fade-out
-src: ./pages/04-dockerumgebung.md
+transition: slide-left
+src: ./pages/04-dockerumgebung-portainer.md
+---
+
+---
+transition: slide-left
+src: ./pages/05-dockerumgebung-live.md
+---
+
+---
+transition: slide-left
+src: ./pages/06-microsoft-sql-server.md
+---
+
+---
+transition: slide-left
+src: ./pages/07-microsoft-sql-server-compose.md
+---
+
+---
+transition: slide-left
+src: ./pages/08-microsoft-sql-server-livedemo.md
+---
+
+---
+transition: slide-left
+src: ./pages/09-microsoft-sql-server-image-editieren.md
 ---

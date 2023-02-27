@@ -49,15 +49,41 @@ src: ./pages/06-microsoft-sql-server.md
 
 ---
 transition: slide-left
-src: ./pages/07-microsoft-sql-server-compose.md
+src: ./pages/07-microsoft-sql-server-volumes.md
 ---
 
 ---
 transition: slide-left
-src: ./pages/08-microsoft-sql-server-livedemo.md
+src: ./pages/08-microsoft-sql-server-compose.md
 ---
 
 ---
 transition: slide-left
-src: ./pages/09-microsoft-sql-server-image-editieren.md
+src: ./pages/09-microsoft-sql-server-livedemo.md
+---
+
+---
+transition: slide-left
+src: ./pages/10-nodejs.md
+---
+
+
+---
+transition: slide-left
+src: ./pages/11-nodejs-js.md
+---
+
+---
+transition: slide-left
+src: ./pages/12-nodemssql-compose.md
+---
+
+---
+transition: slide-left
+src: ./pages/13-nodemssql-datenbank-erstellen.md
+---
+
+---
+transition: slide-left
+src: ./pages/14-livedemo-node.md
 ---

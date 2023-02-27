@@ -1,4 +1,4 @@
-# Docker umgebung erstellen
+# Docker Umgebung erstellen
 
 ### Docker installieren
 
@@ -27,6 +27,5 @@ sudo usermod -aG docker $USER
 ```bash
 newgrp docker
 ```
-<br>
 
 Diese Befehle installieren Docker auf einem Ubuntu-System und fügen den aktuellen Benutzer zur Gruppe "docker" hinzu, um Docker-Befehle ohne die Verwendung von "sudo" ausführen zu können.

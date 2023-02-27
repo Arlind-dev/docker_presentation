@@ -11,4 +11,4 @@ z.B.
       - /Pfad/auf/deinem/Computer:/Pfad/auf/deinem/Container
 ```
 
-Dadurch kann ich Container löschen und neu aufsetzen ohne, dass dieser die Daten verliert.
+Dadurch können Container gelöscht und neu aufgesetzt werden, ohne dass die Daten verloren gehen.

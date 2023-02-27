@@ -1,6 +1,6 @@
-# Docker umgebung erstellen
+# Docker Umgebung erstellen
 
-Da wir jetzt Docker installiert haben können wir jetzt Portainer installieren mit diesem <br> `docker-compose.yml` Datei:
+Da wir Docker nun installiert haben, können wir Portainer mithilfe der folgenden `docker-compose.yml`-Datei installieren:
 
 ```yml
 version: "3.8" # Gibt die Version des Docker-Compose-Dateiformats bzw YAML-Format an, das verwendet wird.
@@ -12,14 +12,14 @@ services: # Definiert die Docker-Services, die von Docker Compose erstellt und v
     ports:
       - 9443:9443 # Ordnet Port 9443 auf der Host-Maschine dem Port 9443 im Container zu.
     volumes: # Gibt Volumes an, die im Container gemountet werden sollen.
-      - /home/arlind/docker/container/portainer:/data # Bindet das Daten-Volume mit dem Namen "data" an das Verzeichnis /data im Container an.
+      - /home/arlind/docker/container/portainer:/data # Host /home/arlind/docker/container/portainer -> Container /data
       - /var/run/docker.sock:/var/run/docker.sock # Host docker socket -> Container docker socket
     restart: unless-stopped # Der Container wird immer neustarten ausser er wird manuel gestoppt.
 volumes:
   data:
 ```
 
-Ausführen müssen wir dies mit:
+Dies kann mit dem folgenden Befehl ausgeführt werden:
 
 ```bash
 docker compose up -d

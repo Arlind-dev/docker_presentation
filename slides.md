@@ -87,3 +87,13 @@ src: ./pages/13-nodemssql-datenbank-erstellen.md
 transition: slide-left
 src: ./pages/14-livedemo-node.md
 ---
+
+---
+transition: slide-left
+src: ./pages/pros-contras.md
+---
+
+---
+transition: slide-left
+src: ./pages/quellenverzeichnis.md
+---
